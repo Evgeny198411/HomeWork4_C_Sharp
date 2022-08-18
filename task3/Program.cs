@@ -30,4 +30,5 @@ Console.WriteLine("Введите максимальное значение дл
 int numMax = int.Parse(Console.ReadLine());
 
 int[] arrayNew = arrayNumbers8(numMin,numMax);
+// int[] arrayNew = arrayNumbers8(); // можно и так
 writeNumbersArray(arrayNew);
